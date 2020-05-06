@@ -1,7 +1,7 @@
 package HangmanGame;
 
 public class Hangman {
-    //declare instantiable variables
+    //declare instance variables
     private StringBuffer wordToShow;
     private String wordToGuess;
     private char letter;
@@ -28,6 +28,7 @@ public class Hangman {
     //methods
     //convert word to ******
     public void convertWord(){
+        //count controlled loop
         for(int i = 0; i < wordToGuess.length(); i++){
             wordToShow.append("*");
         }
@@ -36,6 +37,7 @@ public class Hangman {
     //method to guess the word
     public void guessing(){
         for(int i = 0; i < wordToGuess.length(); i++){
+            //checks if letter is guessed and if yes, replaces star with this letter
             if (letter == wordToGuess.charAt(i)){
                 wordToShow.setCharAt(i,letter);
             }

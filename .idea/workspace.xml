@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3afd1eaa-99f2-4bd1-af0e-cdf7bd5e8f99" name="Default Changelist" comment="" />
+    <list default="true" id="3afd1eaa-99f2-4bd1-af0e-cdf7bd5e8f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/HangmanApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/HangmanApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/HangmanStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HangmanGame/HangmanGame/HangmanStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanGame/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanGame/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanGame/HangmanApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanGame/HangmanApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanGame/HangmanStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanGame/HangmanStats.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +26,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aJVeGJzsJozjbu76nipPdqVhqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,7 +41,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PreTasks" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson6s" />
   </component>
   <component name="RunManager">
     <configuration name="HangmanApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -68,30 +82,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586790560107" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587193371036">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587843159143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587193371036" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1587152289460">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587843159143" />
+    <state width="1323" height="517" key="GridCell.Tab.0.bottom" timestamp="1587853440711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587152289460" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1587152289460">
+    <state width="1323" height="517" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587853440711" />
+    <state width="1323" height="517" key="GridCell.Tab.0.center" timestamp="1587853440711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587152289460" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1587152289460">
+    <state width="1323" height="517" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587853440711" />
+    <state width="1323" height="517" key="GridCell.Tab.0.left" timestamp="1587853440711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587152289460" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1587152289460">
+    <state width="1323" height="517" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587853440711" />
+    <state width="1323" height="517" key="GridCell.Tab.0.right" timestamp="1587853440711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587152289460" />
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1587192748222">
+    <state width="1323" height="517" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587853440711" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1588794142953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587192748222" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588794142953" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1586707804730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

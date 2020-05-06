@@ -16,12 +16,15 @@ public class HangmanApp {
         String usedLetters;
         //declare objects
         StringBuffer sb = new StringBuffer();
+        //declare variable statistics and create an object of type HangmanStats
         HangmanStats statistics = new HangmanStats();
 
+        //output
         System.out.println("Welcome to my Hangman project! " +
                 "\n\tGuess the EUROPEAN UNION countries! ");
         do {
             lives = 5;
+            //object of type scanner to start the game
             Scanner input = new Scanner(System.in);
             Hangman word = new Hangman();
             System.out.println("\t\tPress \"ENTER\" to start the game!");
@@ -29,40 +32,48 @@ public class HangmanApp {
 
             //generate random word from an array
             randomWord = words[(int) (Math.random()*words.length)];
+            //process
             word.setWordToGuess(randomWord);
             word.convertWord();
-
-            usedLetters = " ";
+            //call/invoke a getter method to retrieve converted word
             String wordToShow = word.getWordToShow();
+            //output
             System.out.println("Country to guess: " + wordToShow);
             System.out.println("You've got " + lives + " lives");
             System.out.println();
-
+            usedLetters = " ";
             do {
                     //input
-                    System.out.println("Enter a letter: ");
-                    letter = input.next().charAt(0);
-                    letter = Character.toUpperCase(letter);
+                        System.out.println("Enter a letter: ");
+                        letter = input.next().charAt(0);
+                        letter = Character.toUpperCase(letter);
+
                     //process
+                    //call set method to set the letter
                     word.setLetter(letter);
+                    //call method to guess a letter
                     word.guessing();
+                    //get method to retrieve guessed letters in a word
                     wordToShow = word.getWordToShow();
                     //output
                     System.out.println("Country: " + wordToShow);
 
-                    //check if letter is already entered
+                    //check if letter is already entered or if character user inputted is a letter
                     letterIsUsed = usedLetters.contains(String.valueOf(letter));
-                    if(!letterIsUsed){
+
+                    if(!letterIsUsed && Character.isLetter(letter)){
                         usedLetters = String.valueOf(sb.append(letter).append(" "));
                         //output
                         System.out.println("Letters used: " + sb.toString());
-                    }else{
+                        } else if(!Character.isLetter(letter)){
+                        System.out.println("Invalid character was entered");
+                        }else{
                         System.out.println("Letter is already used!");
-                    }
+                        }
 
                     //check if letter matched, if not lives -1
                     letterMatched = randomWord.contains(String.valueOf(letter));
-                    if (!letterMatched && !letterIsUsed) {
+                    if (!letterMatched && !letterIsUsed && Character.isLetter(letter)) {
                         lives--;
                     }
                     //output
@@ -70,7 +81,7 @@ public class HangmanApp {
                     System.out.println();
 
 
-                } while (lives > 0 && wordToShow.contains("*")) ;
+                } while (lives > 0 && wordToShow.contains("*"));
 
             //output
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");

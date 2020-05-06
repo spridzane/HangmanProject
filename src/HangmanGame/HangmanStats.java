@@ -1,7 +1,8 @@
 package HangmanGame;
+//instantiable class HangmanStats, add +1 to won or lost game and calculate total games played
 
 public class HangmanStats {
-    //declare instantiable variables
+    //declare instance variables
     private int gamesWon;
     private int gamesLost;
 
